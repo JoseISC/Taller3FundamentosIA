@@ -1,3 +1,5 @@
 .venv/
 pycache/
 __pycache__/
+taller3/
+venv/

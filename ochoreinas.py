@@ -323,3 +323,4 @@ if __name__ == "__main__":
     plt.savefig("plots/backtracks_vs_n.png")
     plt.close()
 
+    dfResultados.to_csv("resultados.csv", index=False)
