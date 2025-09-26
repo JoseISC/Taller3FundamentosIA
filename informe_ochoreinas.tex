@@ -85,7 +85,7 @@ Se implementaron tres algoritmos diferentes para resolver el problema:
 El algoritmo de backtracking básico explora el espacio de soluciones de manera sistemática, asignando valores a las variables una por una y retrocediendo cuando se detecta una violación de restricciones.
 
 \begin{lstlisting}[caption=Implementación de Backtracking Básico]
-    def es_valido(tablero, fila, col):
+def es_valido(tablero, fila, col):
     n = len(tablero)
     for i in range(fila):
         for j in range(n):
