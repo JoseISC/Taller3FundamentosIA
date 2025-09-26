@@ -109,7 +109,7 @@ def backtracking(tablero, fila, recursive_call, backtrack):
             backtrack += 1
     return None, recursive_call, backtrack
 \end{lstlisting}
-
+\newpage
 \subsection{Forward Checking}
 
 El forward checking mejora el backtracking básico propagando las restricciones hacia adelante, eliminando valores del dominio de variables no asignadas que son inconsistentes con la asignación actual.
@@ -150,7 +150,7 @@ def forward_checking(tablero, fila, dominios, recursive_call, backtrack):
 
     return None, recursive_call, backtrack
 \end{lstlisting}
-
+\newpage
 \subsection{Forward Checking con MRV}
 
 La heurística MRV (Minimum Remaining Values) selecciona la variable con el menor número de valores válidos restantes en su dominio, lo que puede reducir significativamente el espacio de búsqueda.
@@ -193,7 +193,7 @@ def forward_checking_MRV(tablero, dominios, restantes, recursive_call, backtrack
 
     return None, recursive_call, backtrack
 \end{lstlisting}
-
+\newpage
 \section{Experimentos y Resultados}
 
 \subsection{Configuración Experimental}
